@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "47e64fd07c6dadd86c71976bc9a85613",
+    "content-hash": "6b52282ad9dc019a6c9cb2593809e6a3",
     "packages": [
         {
             "name": "adldap2/adldap2",
@@ -1093,12 +1093,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "9df1a9e73fc7caa573adaf98d159623048a7feed"
+                "reference": "f40f874cb7139abb9309fa63a31fd37bb49ddd3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9df1a9e73fc7caa573adaf98d159623048a7feed",
-                "reference": "9df1a9e73fc7caa573adaf98d159623048a7feed",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f40f874cb7139abb9309fa63a31fd37bb49ddd3e",
+                "reference": "f40f874cb7139abb9309fa63a31fd37bb49ddd3e",
                 "shasum": ""
             },
             "conflict": {
@@ -1124,8 +1124,8 @@
                 "doctrine/mongodb-odm-bundle": ">=2,<3.0.1",
                 "doctrine/orm": ">=2,<2.4.8|>=2.5,<2.5.1",
                 "dompdf/dompdf": ">=0.6,<0.6.2",
-                "drupal/core": ">=8,<8.3.4",
-                "drupal/drupal": ">=8,<8.3.4",
+                "drupal/core": ">=8,<8.3.7",
+                "drupal/drupal": ">=8,<8.3.7",
                 "firebase/php-jwt": "<2",
                 "friendsofsymfony/rest-bundle": ">=1.2,<1.2.2",
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
@@ -1222,7 +1222,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2017-08-08T18:44:50+00:00"
+            "time": "2017-08-17T12:55:16+00:00"
         },
         {
             "name": "robrichards/xmlseclibs",
@@ -1267,21 +1267,22 @@
         },
         {
             "name": "silinternational/idp-id-broker-php-client",
-            "version": "1.1.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silinternational/idp-id-broker-php-client.git",
-                "reference": "e64469f89c82fe8a578c360373b3ecf43a5276bc"
+                "reference": "14ade9a302386847f7ff55e61324a3fa12b4c649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silinternational/idp-id-broker-php-client/zipball/e64469f89c82fe8a578c360373b3ecf43a5276bc",
-                "reference": "e64469f89c82fe8a578c360373b3ecf43a5276bc",
+                "url": "https://api.github.com/repos/silinternational/idp-id-broker-php-client/zipball/14ade9a302386847f7ff55e61324a3fa12b4c649",
+                "reference": "14ade9a302386847f7ff55e61324a3fa12b4c649",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle-services": "^1.1",
                 "php": ">=7.0",
+                "rlanvin/php-ip": "^1.0",
                 "roave/security-advisories": "dev-master"
             },
             "require-dev": {
@@ -1317,7 +1318,7 @@
                 "idp",
                 "php client"
             ],
-            "time": "2017-06-16T14:35:39+00:00"
+            "time": "2017-08-18T13:57:35+00:00"
         },
         {
             "name": "silinternational/php-env",
@@ -1482,16 +1483,16 @@
         },
         {
             "name": "silinternational/simplesamlphp-module-silauth",
-            "version": "2.4.0",
+            "version": "dev-feature/improve-status-check",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silinternational/simplesamlphp-module-silauth.git",
-                "reference": "d175ca02524489db7d8304496906c0fd3f0a0b90"
+                "reference": "753adf8fce6bc403db25f5e4168c2dbd3d01a502"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silinternational/simplesamlphp-module-silauth/zipball/d175ca02524489db7d8304496906c0fd3f0a0b90",
-                "reference": "d175ca02524489db7d8304496906c0fd3f0a0b90",
+                "url": "https://api.github.com/repos/silinternational/simplesamlphp-module-silauth/zipball/753adf8fce6bc403db25f5e4168c2dbd3d01a502",
+                "reference": "753adf8fce6bc403db25f5e4168c2dbd3d01a502",
                 "shasum": ""
             },
             "require": {
@@ -1504,7 +1505,7 @@
                 "ramsey/uuid": "^3.5",
                 "rlanvin/php-ip": "^1.0",
                 "roave/security-advisories": "dev-master",
-                "silinternational/idp-id-broker-php-client": "^1.0 || ^0.4.2",
+                "silinternational/idp-id-broker-php-client": "^2.0",
                 "silinternational/php-env": "^2.0",
                 "silinternational/psr3-adapters": "^1.1",
                 "simplesamlphp/simplesamlphp": "^1.14.12",
@@ -1533,7 +1534,7 @@
                 }
             ],
             "description": "SimpleSAMLphp auth module implementing various security measures before calls to IdP ID Broker backend",
-            "time": "2017-07-18T19:57:17+00:00"
+            "time": "2017-08-24T18:02:20+00:00"
         },
         {
             "name": "silinternational/simplesamlphp-module-sildisco",
@@ -2522,16 +2523,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b"
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
-                "reference": "ecb0b2cdaa0add708fe6f329ef65ae0c5225130b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/9a02332089ac48e704c70f6cefed30c224e3c0b0",
+                "reference": "9a02332089ac48e704c70f6cefed30c224e3c0b0",
                 "shasum": ""
             },
             "require": {
@@ -2567,7 +2568,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-08-03T14:17:41+00:00"
+            "time": "2017-08-20T05:47:52+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -3332,7 +3333,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20
+        "roave/security-advisories": 20,
+        "silinternational/simplesamlphp-module-silauth": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
